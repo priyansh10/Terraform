@@ -23,13 +23,13 @@ resource "aws_instance" "my_ec2_instance" {
 }
 
 
-/*resource "aws_s3_bucket" "my_s3_bucket" {
+resource "aws_s3_bucket" "my_s3_bucket" {
 	bucket = "terraform-priyansh-s3-1234"
 	tags = {
 	Name = "terraform-priyansh-s3-1234"
 	Environment = "Dev"
 }
-}*/
+}
 
 
 
